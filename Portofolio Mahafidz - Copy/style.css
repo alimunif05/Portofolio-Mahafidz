@@ -1,0 +1,528 @@
+/* NAVBAR */
+.warna-navbar {
+  background-color: #2c3333;
+}
+
+.text-navbar {
+  color: white;
+}
+
+.navbar-brand {
+  font-family: serif;
+}
+/* NAVBAR END */
+
+/* INDEX */
+.foto-slide {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.konten-1 {
+  padding-top: 100px;
+  background-color: #f1f5fb;
+}
+
+.img-konten-1 {
+  box-shadow: 0 4px 0 rgba(255, 0, 0, 1);
+}
+
+.konten-1-gsap {
+  color: red;
+}
+
+.get-every {
+  font-size: 25px !important;
+}
+
+.hi-im {
+  font-size: 30px !important;
+}
+
+.nama-mahafidz {
+  font-size: 55px !important;
+}
+
+.ceo-metafora {
+  font-size: 20px;
+}
+
+.btn-danger {
+  transition: .3s;
+  font-size: 20px;
+}
+
+.btn-danger:hover {
+  transform: scale(1.2);
+}
+
+.btn-light {
+  font-size: 20px;
+  border: 1px solid red;
+  transition: .3s;
+}
+
+.btn-light:hover {
+  transform: scale(1.2);
+  border: 1px solid red;
+  background-color: white;
+}
+
+@media (max-width: 992px) {
+  .get-every {
+    font-size: 30px !important;
+  }
+
+  .hi-im {
+    font-size: 37px !important;
+  }
+
+  .nama-mahafidz {
+    font-size: 50px !important;
+  }
+
+  .ceo-metafora {
+    font-size: 23px !important;
+  }
+
+  .btn-danger {
+    font-size: 27px !important;
+  }
+
+  .btn-light {
+    font-size: 27px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .get-every {
+    font-size: 20px !important;
+  }
+
+  .hi-im {
+    font-size: 27px !important;
+  }
+
+  .nama-mahafidz {
+    font-size: 40px !important;
+  }
+
+  .ceo-metafora {
+    font-size: 18px !important;
+  }
+
+  .btn-danger {
+    font-size: 17px !important;
+  }
+
+  .btn-light {
+    font-size: 17px !important;
+  }
+}
+
+.warna-square {
+  color: red;
+}
+
+span {
+  color: red;
+}
+
+.ukuran-p {
+  font-size: 20px;
+}
+
+.radius img {
+  border-radius: 50px 0px 50px 0px;
+  border: 4px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.telusuri a {
+  color: black;
+  text-decoration: none;
+}
+
+/* YOUTUBE */
+.konten-5-yt {
+  margin-top: 35px;
+}
+
+.konten-5-yt iframe {
+  width: 385px;
+  max-width: 100%;
+  border: 4px solid #ddd;
+  border-radius: 50px 0px 50px 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 850px) {
+  .konten-5-yt iframe {
+    max-width: 100%;
+    width: 700px;
+  }
+}
+
+/* INDEX END */
+
+/* PROFIL */
+.profil-mahafidz {
+  padding-top: 70px;
+}
+
+.img-profil-mahafidz img {
+  border-radius: 30px;
+  border-top: 6px solid red;
+  box-shadow: 0 0 15px rgba(237, 4, 4, 0.5);
+}
+
+.bi {
+  font-size: 1.5rem;
+}
+
+.medsos a {
+  color: black;
+}
+
+.bi-whatsapp:hover {
+  color: #2bb741;
+}
+
+.bi-instagram:hover {
+  color: #d94479;
+}
+
+.bi-twitter:hover {
+  color: #039ee9;
+}
+
+.bi-linkedin:hover {
+  color: #0072ac;
+}
+
+.bi-facebook:hover {
+  color: #1873eb;
+}
+
+/* Gaya untuk mode laptop (lebar layar > 768px) */
+@media (min-width: 991px) {
+  .row.justify-content-center.profil {
+    margin-bottom: 0; /* Menghapus margin di mode laptop */
+  }
+}
+
+/* Gaya untuk mode hp (lebar layar <= 768px) */
+@media (max-width: 990px) {
+  .row.justify-content-center.profil {
+    margin-bottom: 40px; /* Tambahkan margin di mode hp */
+  }
+}
+
+.three::first-letter {
+  -webkit-initial-letter: 2;
+  initial-letter: 2;
+  padding-right: 5px;
+  font-weight: bold;
+}
+/* PROFIL END */
+
+/* PORTOFOLIO */
+.portofolio-mahafidz {
+  padding-top: 70px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #4c474772; /* Tambahkan border */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Tambahkan shadow */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border: 2px solid #fff; /* Tambahkan border */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Tambahkan shadow */
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay-button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+
+.overlay-button:hover {
+  transform: scale(1.1);
+}
+
+.overlay-text {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* CSS untuk tampilan desktop */
+/* .row.text-center {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* .col-md-6 {
+  flex: 0 0 calc(50% - 10px);
+  margin: 0 5px;
+} */
+
+/* CSS untuk tampilan smartphone */
+/* @media (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 calc(100% - 10px);
+    margin: 0 5px;
+  }
+} */
+/* PORTOFOLIO END */
+
+/* NEWS & INSPIRASI */
+.card {
+  overflow: hidden;
+}
+
+.img-container-news {
+  overflow: hidden;
+}
+
+.img-container-inspirasi {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.5s ease;
+  max-width: 100%; /* Menyesuaikan gambar agar tidak melebihi lebar wadah */
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+/* NEWS & INSPIRASI END */
+
+
+/* NEWS */
+.news-mahafidz {
+  padding-top: 70px;
+}
+
+.news-mahafidz a {
+  text-decoration: none;
+}
+
+.news-1 {
+  padding-top: 70px;
+}
+
+.news-2 {
+  padding-top: 70px;
+}
+
+.news-3 {
+  padding-top: 70px;
+}
+
+.card {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ubah nilai sesuai preferensi Anda */
+}
+
+.bi-clock-fill {
+  color: #39a7ff;
+}
+
+/* .news-klik {
+  background-color: #3498db !important;
+  color: white;
+}
+
+.news-klik:hover {
+  background-color: #1d7fc0ac !important;
+  color: white;
+} */
+/* NEWS END */
+
+/* POST LIST NEWS DAN INSPIRASI */
+.box-shadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* POST LIST NEWS DAN INSPIRASI END */
+
+/* INSPIRASI */
+.inspirasi-mahafidz {
+  padding-top: 70px;
+}
+
+.inspirasi-mahafidz a {
+  text-decoration: none;
+}
+
+.inspirasi-1 {
+  padding-top: 70px;
+}
+
+.inspirasi-2 {
+  padding-top: 70px;
+}
+
+.inspirasi-3 {
+  padding-top: 70px;
+}
+
+.inspirasi-klik {
+  background-color: #3498db !important;
+  color: white;
+}
+
+.inspirasi-klik:hover {
+  background-color: #1d7fc0ac !important;
+  color: white;
+}
+/* INSPIRASI END */
+
+/* VIDIO */
+.vidio-mahafidz {
+  padding-top: 70px;
+}
+
+.warna-angka {
+  color: red;
+}
+
+.vidio-yt iframe {
+  width: 385px;
+  max-width: 100%;
+  border: 4px solid #ddd;
+  border-radius: 35px 0px 35px 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 850px) {
+  .vidio-yt iframe {
+    max-width: 100%;
+    width: 690px;
+  }
+}
+/* VIDIO END */
+
+/* CLIENT */
+.client {
+  padding-top: 70px;
+}
+
+.img-client img {
+  filter: grayscale(100%);
+  transition: transform 0.8s;
+}
+
+.img-client img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* CLIENT END */
+
+/* POST LIST */
+.post-list {
+  padding: 20px;
+}
+
+.post-list a {
+  color: black;
+  text-decoration: none;
+}
+
+.post {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 15px;
+}
+/* POST LIST END */
+
+/* BUTTON KEMBALI */
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #2574a9;
+}
+/* BUTTON KEMBALI END */
+
+/* FOOTER */
+footer {
+  background-color: #2c3333;
+  padding: 0;
+  margin-top: 100px;
+  color: white;
+}
+
+.remove-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+}
+
+.link-decoration a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-decoration {
+  text-decoration: none;
+}
+
+.bi-telephone-fill:hover {
+  color: #0072ac;
+}
+
+.bi-envelope-fill:hover {
+  color: orange;
+}
+
+.bi-building:hover {
+  color: red;
+}
+/* FOOTER END */
